@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== Icono ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portafolio</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Boton dark -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- Imagen de perfil -->
+                            <img src="assets/img/perfil.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Edgar Leonel Tobar Barrientos</h2>
+                    <h3 class="profile__profession">Ingeniero en Sistemas <br> M.A. Informática con Enfasis en Banca Electrónica</h3>
+					
+					
+                     <!-- Redes Sociales -->
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/juniortobar95/" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.facebook.com/edgarleonel.tobarjr.1/" target="_blank" class="profile__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://github.com/edgartobarjr/" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                 <!-- Info del Perfil -->
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">Edad</h3>
+                        <p class="profile__info-description">
+                           26 Años <br> 
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">País</h3>
+                        <p class="profile__info-description">
+                            Guatemala <br> 
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">Experiencia</h3>
+                        <p class="profile__info-description">Desarrollo Software<br> 
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+
+                    <!-- Agregar el CV -->
+                    <a download="" href="assets/pdf/CV.pdf" target="_blank" class="button" >
+                        Descargar CV <i class="ri-download-line"></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+
+                        <!-- Agregar numero telefonico para Whatsapp -->
+                        <a href="https://api.whatsapp.com/send?phone=+502 51138762&text=Buenos dias, necesito mas información para un trabajo" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- Insert your brand name or profile -->
+                        <a href="https://m.me/edgarleonel.tobarjr.1" target="_blank" class="button button__small button__gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+						<a href="mailto: edgartobarjr@gmail.com" target="_blank" class="button button__small button__gray">
+						   <i class="ri-mail-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Proyectos
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== Proyectos ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- Insertar imagenes de los projectos con las siguientes dimensiones (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">App</span>
+                                    <h3 class="projects__title">CRUD CARROS C#</h3>
+                                    <a href="https://github.com/edgartobarjr/CRUD_CARROS" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    <a href="https://youtu.be/7aoERMq7u-s" style="margin-left: 20px" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-youtube-line"></i> 
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">App</span>
+                                    <h3 class="projects__title">CRUD REGISTROS JAVA</h3>
+                                    <a href="https://github.com/edgartobarjr/CRUD_JAVA" target="_blank class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+										<a href="https://youtu.be/Lq100pQjg2w" style="margin-left: 20px" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-youtube-line"></i> 
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">App</span>
+                                    <h3 class="projects__title">CALCULO DE SUELDOS JAVA</h3>
+                                    <a href="https://github.com/edgartobarjr/SueldoEmpleados" target="_blank class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+										<a href="https://youtu.be/7aoERMq7u-s" style="margin-left: 20px" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-youtube-line"></i> 
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project4.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">App</span>
+                                    <h3 class="projects__title">CONVERTIR ARCHIVOS WORD Y PDF C#</h3>
+                                    <a href="https://github.com/edgartobarjr/Convertir-Archivos-PDF-y-Word" target="_blank class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+										<a href="https://youtu.be/FATgFBJz1LE" style="margin-left: 20px" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-youtube-line"></i> 
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project5.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">App</span>
+                                    <h3 class="projects__title">EDITOR TEXTO CARÁCTERES JAVA</h3>
+                                    <a href="https://github.com/edgartobarjr/EditorTexto" target="_blank class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+										<a href="https://youtu.be/Y7qtksmMqVs" style="margin-left: 20px" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-youtube-line"></i> 
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                         <h3 class="skills__title">Tecnologías</h3> 
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Avanzado</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Básico</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Microsoft Office</h3>
+                                            <span class="skills__level">Avanzado</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Git</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Utilizadas</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">C#</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">SQL</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Java</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">.NET</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Consumo Api</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                              
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Ing. Edgar Tobar. Todos derechos reservados
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
